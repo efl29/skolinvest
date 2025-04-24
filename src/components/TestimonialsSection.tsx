@@ -28,7 +28,7 @@ const TestimonialsSection: React.FC = () => {
     <section className="py-16 bg-white">
       <div className="container-custom">
         <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center text-brand-primary">
-          Ce que nos apprenants disent
+          Ils en parlent mieux que moi
         </h2>
         
         <div className="flex justify-center mb-10">

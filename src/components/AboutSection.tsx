@@ -1,8 +1,28 @@
 
 import React from 'react';
 import { Button } from "@/components/ui/button";
+import { Briefcase, Users, BookOpen, Search } from 'lucide-react';
 
 const AboutSection: React.FC = () => {
+  const expertise = [
+    {
+      icon: <Briefcase className="h-6 w-6" />,
+      text: "Expertise marchés & fiscalité"
+    },
+    {
+      icon: <Users className="h-6 w-6" />,
+      text: "Accompagnement humain et personnalisé"
+    },
+    {
+      icon: <BookOpen className="h-6 w-6" />,
+      text: "Pédagogie claire et structurée"
+    },
+    {
+      icon: <Search className="h-6 w-6" />,
+      text: "Transparence totale : je vous montre ce que je fais, je vous explique pourquoi"
+    }
+  ];
+
   return (
     <section className="py-16 bg-white" id="about">
       <div className="container-custom">
@@ -10,31 +30,38 @@ const AboutSection: React.FC = () => {
           <div>
             <img 
               src="https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
-              alt="Formateur Skolinvest" 
+              alt="Formatrice Skolinvest" 
               className="rounded-xl shadow-lg object-cover h-96 w-full"
             />
           </div>
           
           <div>
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-brand-primary">
-              Qui suis-je ?
+              Pourquoi me faire confiance ?
             </h2>
             
             <p className="text-lg mb-4">
-              Je suis Alexandre, investisseur depuis plus de 10 ans et fondateur de Skolinvest.
+              Je suis une ancienne assistante trader.
             </p>
             
             <p className="text-lg mb-4">
-              Après avoir commencé ma carrière dans la finance et travaillé pour plusieurs institutions financières, j'ai décidé de créer Skolinvest pour partager mon expertise et aider les particuliers à prendre en main leur avenir financier.
+              J'ai accompagné des dizaines de clients dans la construction de leur patrimoine.
             </p>
             
             <p className="text-lg mb-6">
-              Ma mission est simple : démocratiser l'accès à un savoir financier de qualité, sans jargon inutile, avec des méthodes éprouvées que j'utilise moi-même depuis des années.
+              Mon approche s'appuie sur les méthodes des plus grands investisseurs, validées par l'histoire et les chiffres.
             </p>
-            
-            <Button className="bg-brand-primary hover:bg-brand-primary/90">
-              En savoir plus sur mon parcours
-            </Button>
+
+            <div className="space-y-4">
+              {expertise.map((item, index) => (
+                <div key={index} className="flex items-center gap-3">
+                  <div className="text-brand-primary">
+                    {item.icon}
+                  </div>
+                  <p className="text-lg">{item.text}</p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
