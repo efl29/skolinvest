@@ -11,7 +11,7 @@ const Navbar: React.FC = () => {
       <nav className="container-custom py-4 flex justify-between items-center">
         {/* Logo */}
         <a href="/" className="flex items-center">
-          <span className="text-xl font-bold text-brand-primary">Vidéo Formation France</span>
+          <span className="text-xl font-bold text-brand-primary">Skolinvest</span>
         </a>
 
         {/* Desktop Navigation */}

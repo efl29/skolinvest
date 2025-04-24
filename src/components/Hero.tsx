@@ -9,14 +9,14 @@ const Hero: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="space-y-6 max-w-xl">
             <h1 className="font-extrabold text-4xl sm:text-5xl md:text-6xl tracking-tight">
-              Développez vos compétences avec nos formations en ligne
+              Apprenez à investir par vous-même
             </h1>
             <p className="text-lg md:text-xl opacity-90">
-              Découvrez des cours vidéo de haute qualité, créés par des experts pour vous aider à progresser dans votre carrière.
+              Des formations en ligne pour maîtriser les techniques d'investissement et gérer votre portefeuille en toute autonomie.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="text-lg bg-white text-brand-primary hover:bg-gray-100">
-                Voir les formations
+                Découvrir nos formations
               </Button>
               <Button size="lg" variant="outline" className="text-lg border-white text-white hover:bg-white hover:text-brand-primary">
                 En savoir plus
