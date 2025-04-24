@@ -22,14 +22,17 @@ const Navbar: React.FC = () => {
           <a href="#formations" className="text-gray-800 hover:text-brand-primary font-medium transition-colors">
             Formations
           </a>
-          <a href="#avantages" className="text-gray-800 hover:text-brand-primary font-medium transition-colors">
-            Pourquoi nous choisir
+          <a href="#about" className="text-gray-800 hover:text-brand-primary font-medium transition-colors">
+            À propos
+          </a>
+          <a href="#faq" className="text-gray-800 hover:text-brand-primary font-medium transition-colors">
+            FAQ
           </a>
           <a href="#contact" className="text-gray-800 hover:text-brand-primary font-medium transition-colors">
             Contact
           </a>
-          <Button variant="outline" className="ml-2">Se connecter</Button>
-          <Button>S'inscrire</Button>
+          <Button variant="outline" className="ml-2 border-brand-primary text-brand-primary hover:bg-brand-primary hover:text-white">Se connecter</Button>
+          <Button className="bg-brand-primary hover:bg-brand-primary/90">S'inscrire</Button>
         </div>
 
         {/* Mobile menu button */}
@@ -53,14 +56,17 @@ const Navbar: React.FC = () => {
             <a href="#formations" className="block py-2 text-gray-800 font-medium hover:text-brand-primary">
               Formations
             </a>
-            <a href="#avantages" className="block py-2 text-gray-800 font-medium hover:text-brand-primary">
-              Pourquoi nous choisir
+            <a href="#about" className="block py-2 text-gray-800 font-medium hover:text-brand-primary">
+              À propos
+            </a>
+            <a href="#faq" className="block py-2 text-gray-800 font-medium hover:text-brand-primary">
+              FAQ
             </a>
             <a href="#contact" className="block py-2 text-gray-800 font-medium hover:text-brand-primary">
               Contact
             </a>
-            <Button variant="outline" className="w-full mt-3">Se connecter</Button>
-            <Button className="w-full mt-2">S'inscrire</Button>
+            <Button variant="outline" className="w-full mt-3 border-brand-primary text-brand-primary hover:bg-brand-primary hover:text-white">Se connecter</Button>
+            <Button className="w-full mt-2 bg-brand-primary hover:bg-brand-primary/90">S'inscrire</Button>
           </div>
         </div>
       )}

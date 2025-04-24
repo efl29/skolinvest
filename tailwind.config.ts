@@ -63,18 +63,18 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Custom colors for our e-learning platform
+				// Mise à jour des couleurs pour le thème bleu/jaune
 				brand: {
-					primary: '#1E40AF', // Deep blue
-					secondary: '#3B82F6', // Lighter blue
-					accent: '#C7D2FE', // Very light blue
-					dark: '#1E293B', // Dark slate
-					light: '#F8FAFC', // Light background
+					primary: '#1E40AF', // Bleu foncé
+					secondary: '#3B82F6', // Bleu plus clair
+					accent: '#FBBF24', // Jaune
+					light: '#FEF9C3', // Jaune clair
+					dark: '#1E293B', // Slate foncé pour les textes
 				},
 				course: {
-					beginner: '#22C55E', // Green
-					intermediate: '#F59E0B', // Amber
-					advanced: '#EF4444', // Red
+					beginner: '#22C55E', // Vert
+					intermediate: '#F59E0B', // Ambre
+					advanced: '#EF4444', // Rouge
 				}
 			},
 			borderRadius: {
