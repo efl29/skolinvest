@@ -27,9 +27,29 @@ const TestimonialsSection: React.FC = () => {
   return (
     <section className="py-16 bg-white">
       <div className="container-custom">
-        <h2 className="text-3xl md:text-4xl font-bold mb-10 text-center text-brand-primary">
+        <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center text-brand-primary">
           Ce que nos apprenants disent
         </h2>
+        
+        <div className="flex justify-center mb-10">
+          <a 
+            href="https://fr.trustpilot.com/review/skolinvest.com" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="flex items-center gap-2"
+          >
+            <img 
+              src="https://cdn.trustpilot.com/brand-assets/1.1.0/logo-black.svg"
+              alt="Trustpilot"
+              className="h-8"
+            />
+            <div className="flex">
+              {Array(5).fill(0).map((_, i) => (
+                <Star key={i} className="h-5 w-5 fill-brand-accent text-brand-accent" />
+              ))}
+            </div>
+          </a>
+        </div>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
@@ -49,6 +69,17 @@ const TestimonialsSection: React.FC = () => {
               </div>
             </div>
           ))}
+        </div>
+
+        <div className="text-center mt-8">
+          <a 
+            href="https://fr.trustpilot.com/review/skolinvest.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-brand-primary hover:underline"
+          >
+            Voir tous les avis sur Trustpilot
+          </a>
         </div>
       </div>
     </section>

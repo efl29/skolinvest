@@ -5,12 +5,14 @@ import Hero from '@/components/Hero';
 import ChallengesSolutionSection from '@/components/ChallengesSolutionSection';
 import WhySkolinvestSection from '@/components/WhySkolinvestSection';
 import ProgramSection from '@/components/ProgramSection';
+import MethodologySection from '@/components/MethodologySection';
+import BenefitsSection from '@/components/BenefitsSection';
 import TestimonialsSection from '@/components/TestimonialsSection';
 import ProductsSection from '@/components/ProductsSection';
 import BonusSection from '@/components/BonusSection';
 import AboutSection from '@/components/AboutSection';
-import FAQSection from '@/components/FAQSection';
 import CTASection from '@/components/CTASection';
+import FAQSection from '@/components/FAQSection';
 import Footer from '@/components/Footer';
 
 const Index = () => {
@@ -23,12 +25,14 @@ const Index = () => {
         <ChallengesSolutionSection />
         <WhySkolinvestSection />
         <ProgramSection />
+        <MethodologySection />
+        <BenefitsSection />
         <TestimonialsSection />
         <ProductsSection />
         <BonusSection />
         <AboutSection />
-        <FAQSection />
         <CTASection />
+        <FAQSection />
       </main>
       
       <Footer />

@@ -52,9 +52,21 @@ const ProductsSection: React.FC = () => {
   return (
     <section className="py-16 bg-gray-50" id="formations">
       <div className="container-custom">
-        <h2 className="text-3xl md:text-4xl font-bold mb-10 text-center text-brand-primary">
+        <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center text-brand-primary">
           Nos Formations
         </h2>
+        
+        <div className="text-center mb-10 space-y-2">
+          <p className="text-xl text-gray-700">
+            Plusieurs formules selon votre niveau & vos besoins :
+          </p>
+          <p className="text-lg text-gray-600">
+            → De 647€ à 3 600€, selon l'accompagnement choisi
+          </p>
+          <p className="text-lg text-gray-600">
+            → Paiement en plusieurs fois possible
+          </p>
+        </div>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {products.map((product, index) => (
@@ -106,6 +118,21 @@ const ProductsSection: React.FC = () => {
               </div>
             </div>
           ))}
+        </div>
+
+        <div className="mt-12 text-center max-w-2xl mx-auto">
+          <div className="bg-brand-light p-6 rounded-xl border border-brand-accent/20">
+            <p className="text-lg">
+              Et si vous hésitez, vous pouvez même demander un extrait de la formation pour vérifier qu'elle est faite pour vous. Remplacer par satisfait ou rembourser 15 jours.
+            </p>
+            <div className="mt-4">
+              <img 
+                src="https://cdn.trustpilot.com/brand-assets/1.1.0/logo-black.svg"
+                alt="Satisfaction garantie"
+                className="h-12 mx-auto"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </section>

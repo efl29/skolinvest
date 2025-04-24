@@ -8,19 +8,17 @@ const CTASection: React.FC = () => {
       <div className="container-custom">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Prêt à développer vos compétences d'investisseur ?
+            Vous voulez arrêter de subir et commencer à construire ?
           </h2>
-          <p className="text-xl mb-8 opacity-90">
-            Rejoignez des milliers d'apprenants qui ont déjà transformé leur avenir financier grâce à nos formations.
+          <p className="text-xl mb-4">
+            Prenez une décision que votre futur vous remerciera d'avoir prise.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-brand-accent text-brand-primary hover:bg-brand-accent/90">
-              Découvrir nos formations
-            </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-brand-primary">
-              Me contacter
-            </Button>
-          </div>
+          <p className="text-xl mb-8">
+            🎓 Rejoignez un des parcours de formation Bourse de Skolinvest et reprenez le contrôle sur vos finances.
+          </p>
+          <Button size="lg" className="bg-brand-accent text-brand-primary hover:bg-brand-accent/90">
+            Je veux accéder à la formation
+          </Button>
         </div>
       </div>
     </section>
