@@ -7,7 +7,7 @@ const MethodologySection: React.FC = () => {
       <div className="container-custom">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-8 text-brand-primary">
-            Une formation pour ceux qui veulent comprendre, décider, et gagner.
+            Des parcours de formation pour ceux qui veulent comprendre, décider en toutes confiance et prendre le contrôle de leur épargne.
           </h2>
           <div className="space-y-4 text-lg">
             <p>Pas de promesse de rendement fixe.</p>
