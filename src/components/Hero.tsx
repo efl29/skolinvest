@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
               Apprenez à investir par vous-même
             </h1>
             <p className="text-lg md:text-xl opacity-90">
-              Des formations en ligne pour maîtriser les techniques d'investissement et gérer votre portefeuille en toute autonomie.
+              Apprenez à naviguer sur les marchés financiers et à traverser avec sérénité les tempêtes.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="text-lg bg-brand-accent hover:bg-brand-accent/90 text-brand-primary">
