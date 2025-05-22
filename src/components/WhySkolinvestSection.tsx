@@ -31,6 +31,12 @@ const WhySkolinvestSection: React.FC = () => {
               </div>
               <p className="text-lg">Ceux qui veulent se bâtir une vraie stratégie d'investissement à long terme, et pas juste "tenter leur chance" sur une appli flashy</p>
             </li>
+            <li className="flex items-start gap-3">
+              <div className="bg-white/20 rounded-full p-1 flex items-center justify-center">
+                <div className="text-brand-accent text-xl">•</div>
+              </div>
+              <p className="text-lg">Ceux qui veulent se sentir accompagner, cadrer, et surtout : mettre en place leur plan maintenant, sans se disperser</p>
+            </li>
           </ul>
         </div>
       </div>

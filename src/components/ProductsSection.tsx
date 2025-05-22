@@ -131,7 +131,13 @@ const ProductsSection: React.FC = () => {
 
         <div className="mt-12 text-center max-w-3xl mx-auto">
           <div className="bg-brand-light p-6 rounded-xl border border-brand-accent/30 mb-8">
-            <p className="text-xl font-bold mb-4">Réservez un appel pour savoir quel parcours vous correspond</p>
+            <p className="text-xl font-bold mb-4">Est-ce que cela vous correspond ?</p>
+            <div className="text-left mb-6 space-y-2">
+              <p>✅ Vous voulez gagner du temps et éviter les erreurs classiques</p>
+              <p>✅ Vous voulez valider vos choix avec un pro, au lieu de douter</p>
+              <p>✅ Vous êtes motivé, mais vous avez besoin d'un cadre pour ne pas vous éparpiller</p>
+              <p>✅ Vous voulez tout mettre en place rapidement, sans vous user mentalement</p>
+            </div>
             <Button asChild className="bg-brand-accent text-white hover:bg-brand-accent/90">
               <Link to="/contact">Réserver un appel</Link>
             </Button>
