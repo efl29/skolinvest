@@ -2,6 +2,7 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Check } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const ProductsSection: React.FC = () => {
   const products = [
@@ -20,6 +21,7 @@ const ProductsSection: React.FC = () => {
       ],
       buttonText: "Je commence maintenant",
       highlighted: false,
+      link: "/contact",
     },
     {
       title: "Parcours Expert : Stock Picking",
@@ -34,6 +36,7 @@ const ProductsSection: React.FC = () => {
       ],
       buttonText: "Je deviens expert",
       highlighted: true,
+      link: "/contact",
     },
     {
       title: "Accompagnement individuel",
@@ -48,6 +51,7 @@ const ProductsSection: React.FC = () => {
       ],
       buttonText: "Je veux être accompagné",
       highlighted: false,
+      link: "/contact",
     },
   ];
 
@@ -60,7 +64,7 @@ const ProductsSection: React.FC = () => {
         
         <div className="text-center mb-10 space-y-2">
           <p className="text-xl text-gray-700">
-            Plusieurs formules selon votre niveau & vos besoins :
+            3 parcours clairs. 3 niveaux d'engagement. 1 seul objectif : vous rendre autonome, serein et libre financièrement.
           </p>
           <p className="text-lg text-gray-600">
             → De 647€ à 3 600€, selon l'accompagnement choisi
@@ -114,15 +118,25 @@ const ProductsSection: React.FC = () => {
                       ? 'bg-brand-accent hover:bg-brand-accent/90 text-white' 
                       : 'bg-brand-primary hover:bg-brand-primary/90'
                   }`}
+                  asChild
                 >
-                  {product.buttonText}
+                  <Link to={product.link}>
+                    {product.buttonText}
+                  </Link>
                 </Button>
               </div>
             </div>
           ))}
         </div>
 
-        <div className="mt-12 text-center max-w-2xl mx-auto">
+        <div className="mt-12 text-center max-w-3xl mx-auto">
+          <div className="bg-brand-light p-6 rounded-xl border border-brand-accent/30 mb-8">
+            <p className="text-xl font-bold mb-4">Réservez un appel pour savoir quel parcours vous correspond</p>
+            <Button asChild className="bg-brand-accent text-white hover:bg-brand-accent/90">
+              <Link to="/contact">Réserver un appel</Link>
+            </Button>
+          </div>
+          
           <div className="bg-gray-50 p-6 rounded-xl border border-gray-200">
             <div className="flex flex-col md:flex-row items-center justify-between gap-4">
               <div className="text-left">

@@ -30,6 +30,10 @@ const FAQSection: React.FC = () => {
       answer: "Oui, vous avez une garantie de 14 jours satisfait ou remboursé, sans condition."
     },
     {
+      question: "Est-ce que je peux payer en plusieurs fois ?",
+      answer: "Oui, il est possible de payer en 3 fois."
+    },
+    {
       question: "Est-ce que je recevrai une facture pour ma comptabilité ?",
       answer: "Oui, une facture au format PDF vous sera automatiquement envoyée par email après votre achat."
     },

@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Menu, X } from 'lucide-react';
@@ -19,9 +20,9 @@ const Navbar: React.FC = () => {
           <a href="/" className="text-gray-800 hover:text-brand-primary font-medium transition-colors">
             Accueil
           </a>
-          <a href="#formations" className="text-gray-800 hover:text-brand-primary font-medium transition-colors">
-            Formations
-          </a>
+          <Link to="/contact" className="text-gray-800 hover:text-brand-primary font-medium transition-colors">
+            Nos offres
+          </Link>
           <a href="#about" className="text-gray-800 hover:text-brand-primary font-medium transition-colors">
             À propos
           </a>
@@ -53,9 +54,9 @@ const Navbar: React.FC = () => {
             <a href="/" className="block py-2 text-gray-800 font-medium hover:text-brand-primary">
               Accueil
             </a>
-            <a href="#formations" className="block py-2 text-gray-800 font-medium hover:text-brand-primary">
-              Formations
-            </a>
+            <Link to="/contact" className="block py-2 text-gray-800 font-medium hover:text-brand-primary">
+              Nos offres
+            </Link>
             <a href="#about" className="block py-2 text-gray-800 font-medium hover:text-brand-primary">
               À propos
             </a>
