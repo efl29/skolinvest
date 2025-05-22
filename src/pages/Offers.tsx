@@ -24,7 +24,7 @@ const Offers = () => {
       ],
       buttonText: "Je commence la gestion passive",
       highlighted: false,
-      whyExists: "Vous voulez investir en bourse pour sécuriser ton avenir, préparer votreretraite, ou juste avoir un plan B si un jour vous voulez vous reconvertir. Mais vous n'avez pas le temps. Vous voulez comprendre, mais sans vous noyer dans le jargon. Cette formation a été pensée pour les gens comme vous: curieux, débordés, qui veulent des résultats sans sacrifier leur énergie mentale.",
+      whyExists: "Vous voulez investir en bourse pour sécuriser votre avenir, préparer votre retraite, ou juste avoir un plan B si un jour vous souhaitez changer de vie.\nMais vous ne voulez pas y passer des heures. Vous voulez comprendre, mais sans vous noyer dans le jargon financier.\nCette formation a été pensée pour les gens comme vous : curieux, débordés, qui veulent des résultats sans sacrifier leur énergie mentale.",
       howItWorks: [
         "Accès immédiat à une plateforme claire, divisée en modules courts",
         "Vidéos explicatives + PDF synthétiques",
@@ -33,7 +33,7 @@ const Offers = () => {
       ],
       results: [
         "Vous savez où investir votre argent chaque mois, sans vous poser mille questions",
-        "Vous savez pourquoi tu choisis tel ETF, tel compte, et non un autre",
+        "Vous savez pourquoi vous choisissez tel ETF, tel fonds, etc. ou tel compte, et non un autre",
         "Vous êtes autonome, calme et structuré dans votre gestion financière",
         "Vous pouvez vous concentrer sur ce qui vous intéresse vraiment, pas sur les marchés"
       ],
@@ -48,7 +48,7 @@ const Offers = () => {
       id: "expert",
       title: "Parcours Expert : Stock Picking",
       price: "1200€",
-      description: "Gérer son portefeuille comme un pro",
+      description: "Apprenez à repérer les pépites, comme un vrai analyste",
       features: [
         "Tout ce qui est inclus dans le parcours Gestion passive",
         "Lire des rapports financiers",
@@ -56,33 +56,33 @@ const Offers = () => {
         "Faire une analyse quantitative",
         "Faire une analyse qualitative",
       ],
-      buttonText: "Je deviens expert",
+      buttonText: "Je deviens expert du Stock Picking",
       highlighted: true,
-      whyExists: "Vous voulez investir en bourse pour sécuriser ton avenir, préparer votreretraite, ou juste avoir un plan B si un jour vous voulez vous reconvertir. Mais vous n'avez pas le temps. Vous voulez comprendre, mais sans vous noyer dans le jargon. Cette formation a été pensée pour les gens comme vous: curieux, débordés, qui veulent des résultats sans sacrifier leur énergie mentale.",
+      whyExists: "Vous souhaitez choisir vous-mêmes les meilleures entreprises ?\nNe pas suivre un portefeuille tout fait, mais comprendre exactement ce que vous achetez ?\nCette formation est faite pour vous si vous voulez :\n• Devenir autonome dans l'analyse d'entreprise\n• Savoir quand acheter, quand vendre, et pourquoi\n• Créer votre propre portefeuille \"conviction\"\n• Ne plus dépendre d'un influenceur ou d'un gourou boursier\nVous allez apprendre à :\n• Lire un bilan, un compte de résultat, sans jargon inutile\n• Identifier les entreprises sous-cotées de qualité\n• Appliquer les meilleures méthodes de sélection (value, GARP, growth…)\n• Vous protéger des biais émotionnels qui vous font perdre de l'argent",
       howItWorks: [
-        "Accès immédiat à une plateforme claire, divisée en modules courts",
-        "Vidéos explicatives + PDF synthétiques",
-        "Modèle de portefeuille prêt à l'emploi, basé sur ton profil (prudent/équilibré/dynamique)",
-        "Bonus : simulateur d'investissement et routine de suivi simple"
+        "6 modules progressifs : fondamentaux, lecture comptable, ratios clés, analyse avancée, valorisation, gestion long-terme",
+        "Cas pratiques sur des entreprises réelles",
+        "Accès aux modèles Excel + tableurs de suivi",
+        "Quiz, résumé PDF, et bonus : checklists de sélection d'actions"
       ],
       results: [
-        "Vous savez où investir votre argent chaque mois, sans vous poser mille questions",
-        "Vous savez pourquoi tu choisis tel ETF, tel compte, et non un autre",
-        "Vous êtes autonome, calme et structuré dans votre gestion financière",
-        "Vous pouvez vous concentrer sur ce qui vous intéresse vraiment, pas sur les marchés"
+        "Vous savez analyser une entreprise comme un pro, en toute autonomie",
+        "Vous ne suivez plus les conseils d'influenceurs soi-disant « experts »",
+        "Vous construisez votre propre portefeuille long terme, adapté à votre style",
+        "Vous savez éviter les erreurs les plus fréquentes des investisseurs solo"
       ],
       isItForYou: [
-        "Vous voulez investir en bourse sans stress",
-        "Vous ne voulez pas \"trader\", mais placer votre argent intelligemment",
-        "Vous avez peu de temps, mais vous voulez comprendre ce que vous faites",
-        "Vous voulez un système clair, éprouvé, et facile à suivre"
+        "Vous voulez vous sentir compétent et autonome dans vos choix",
+        "Vous ne voulez plus dépendre du portefeuille d'un influenceur",
+        "Vous avez envie d'apprendre sérieusement, même si c'est dense",
+        "Vous êtes prêt à vous investir pour avoir un vrai retour sur le long terme"
       ]
     },
     {
       id: "accompagnement",
       title: "Accompagnement individuel",
       price: "3600€",
-      description: "Vous voulez être sûr de ne pas vous tromper dans votre sélection ? Avancer plus vite ? Nous vous accompagnons.",
+      description: "Ne perdez plus de temps, concevez rapidement votre portefeuille",
       features: [
         "Tout ce qui est inclus dans Expert",
         "3 sessions de coaching individuel",
@@ -90,26 +90,26 @@ const Offers = () => {
         "Plan d'investissement sur-mesure",
         "Support prioritaire pendant 6 mois",
       ],
-      buttonText: "Je veux être accompagné",
+      buttonText: "Je réserve mon appel gratuit",
       highlighted: false,
-      whyExists: "Vous voulez investir en bourse pour sécuriser ton avenir, préparer votreretraite, ou juste avoir un plan B si un jour vous voulez vous reconvertir. Mais vous n'avez pas le temps. Vous voulez comprendre, mais sans vous noyer dans le jargon. Cette formation a été pensée pour les gens comme vous: curieux, débordés, qui veulent des résultats sans sacrifier leur énergie mentale.",
+      whyExists: "Vous souhaitez passer à l'action, mais vous voulez être guidé à chaque étape ?\nVous avez compris les bases, ou vous êtes en train de les apprendre, mais vous ne voulez pas rester bloqué.\nVous voulez pouvoir valider vos idées avec un expert, vous sentir accompagné, cadré, et surtout : mettre en place votre plan maintenant, sans vous disperser\nVous voulez être sûr de ne pas vous planter ? Avancer plus vite ? On le fait ensemble.\n\nL'accompagnement individuel est fait pour vous si vous souhaitez :\n• Valider votre stratégie avec un expert\n• Être accompagné dans la mise en place concrète de votre portefeuille\n• Bénéficier d'un retour personnalisé sur vos choix\n• Vous sentir soutenu, encadré et motivé pour ne pas procrastiner",
       howItWorks: [
-        "Accès immédiat à une plateforme claire, divisée en modules courts",
-        "Vidéos explicatives + PDF synthétiques",
-        "Modèle de portefeuille prêt à l'emploi, basé sur ton profil (prudent/équilibré/dynamique)",
-        "Bonus : simulateur d'investissement et routine de suivi simple"
+        "Audit complet de votre situation (temps, fiscalité, capital, objectifs)",
+        "4 sessions en visio (personnalisables selon votre besoin)",
+        "Plan d'action pas à pas : comptes, fiscalité, construction portefeuille, suivi",
+        "Assistance mail entre les sessions + accès à des ressources privées"
       ],
       results: [
-        "Vous savez où investir votre argent chaque mois, sans vous poser mille questions",
-        "Vous savez pourquoi tu choisis tel ETF, tel compte, et non un autre",
-        "Vous êtes autonome, calme et structuré dans votre gestion financière",
-        "Vous pouvez vous concentrer sur ce qui vous intéresse vraiment, pas sur les marchés"
+        "Vous mettez en place une stratégie claire, solide et cohérente",
+        "Vous passez à l'action concrètement, sans procrastiner",
+        "Vous gagnez en confiance dans vos décisions",
+        "Vous avez quelqu'un à vos côtés, pour vous épauler, vous encourager, corriger si besoin"
       ],
       isItForYou: [
-        "Vous voulez investir en bourse sans stress",
-        "Vous ne voulez pas \"trader\", mais placer votre argent intelligemment",
-        "Vous avez peu de temps, mais vous voulez comprendre ce que vous faites",
-        "Vous voulez un système clair, éprouvé, et facile à suivre"
+        "Vous voulez gagner du temps et éviter les erreurs classiques",
+        "Vous voulez valider vos choix avec un pro, au lieu de douter",
+        "Vous êtes motivé, mais vous avez besoin d'un cadre pour ne pas vous éparpiller",
+        "Vous voulez tout mettre en place rapidement, sans vous user mentalement"
       ]
     }
   ];
