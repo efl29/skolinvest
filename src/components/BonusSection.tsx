@@ -4,11 +4,9 @@ import { Gift } from 'lucide-react';
 
 const BonusSection: React.FC = () => {
   const bonuses = [
-    "Guide PDF : Les 10 erreurs à éviter en bourse",
-    "Webinaire gratuit : Débuter en bourse en période d'incertitude",
+    "Une séance d'accompagnement offerte par une experte certifiée par l'AMF",
     "Checklist d'analyse d'entreprise",
-    "Modèle Excel de suivi de portefeuille",
-    "Mini-cours : Comment lire un rapport financier"
+    "Modèle Excel de suivi de portefeuille"
   ];
 
   return (

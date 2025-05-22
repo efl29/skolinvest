@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Button } from "@/components/ui/button";
+import { Link } from 'react-router-dom';
 
 const Hero: React.FC = () => {
   return (
@@ -18,7 +19,7 @@ const Hero: React.FC = () => {
               <Button size="lg" className="text-lg bg-brand-accent hover:bg-brand-accent/90 text-brand-primary">
                 Découvrir nos formations
               </Button>
-              <Button size="lg" variant="outline" className="text-lg border-white text-brand-primary bg-white hover:bg-white hover:text-brand-secondary">
+              <Button size="lg" variant="outline" className="text-lg border-white text-brand-primary bg-white hover:bg-white hover:text-blue-500">
                 En savoir plus
               </Button>
             </div>
@@ -26,13 +27,22 @@ const Hero: React.FC = () => {
           <div className="relative hidden md:block">
             <div className="rounded-xl overflow-hidden shadow-xl">
               <img 
-                src="/placeholder.svg" 
+                src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" 
                 alt="Graphique boursier" 
                 className="w-full h-auto object-cover"
                 style={{ aspectRatio: '16/9' }}
               />
             </div>
           </div>
+        </div>
+        
+        <div className="mt-12 bg-white/10 backdrop-blur-sm p-4 rounded-lg text-center">
+          <p className="text-lg mb-3">Réservez un appel pour savoir quel parcours vous correspond</p>
+          <Link to="/contact">
+            <Button className="bg-brand-accent hover:bg-brand-accent/90 text-white">
+              Réserver un appel
+            </Button>
+          </Link>
         </div>
       </div>
     </section>

@@ -2,6 +2,7 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Briefcase, Users, BookOpen, Search } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const AboutSection: React.FC = () => {
   const expertise = [
@@ -52,7 +53,7 @@ const AboutSection: React.FC = () => {
               Mon approche s'appuie sur les méthodes des plus grands investisseurs, validées par l'histoire et les chiffres.
             </p>
 
-            <div className="space-y-4">
+            <div className="space-y-4 mb-6">
               {expertise.map((item, index) => (
                 <div key={index} className="flex items-center gap-3">
                   <div className="text-brand-primary">
@@ -62,6 +63,12 @@ const AboutSection: React.FC = () => {
                 </div>
               ))}
             </div>
+            
+            <Link to="/contact">
+              <Button className="bg-brand-accent hover:bg-brand-accent/90 text-white">
+                Réserver un appel
+              </Button>
+            </Link>
           </div>
         </div>
       </div>

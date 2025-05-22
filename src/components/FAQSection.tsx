@@ -15,7 +15,19 @@ const FAQSection: React.FC = () => {
     },
     {
       question: "Combien de temps faut-il pour compléter la formation ?",
-      answer: "La formation complète représente environ 20 heures de contenu. Vous pouvez la suivre à votre rythme, et vous aurez un accès à vie à tous les contenus et leurs mises à jour."
+      answer: "La formation Gestion Passive représente 3 heures de contenu et la formation Stock Picking environ 6 heures. Vous pouvez la suivre à votre rythme, et vous aurez un accès à vie à tous les contenus et leurs mises à jour."
+    },
+    {
+      question: "Combien de temps dois-je prévoir par semaine ?",
+      answer: "Environ 1 à 2h par semaine. L'idée est que vous puissiez avancer à votre rythme, sans pression."
+    },
+    {
+      question: "Et si j'ai des questions en cours de route ?",
+      answer: "Vous pouvez poser toutes vos questions par email. Et dans la formule accompagnement, vous êtes suivi personnellement."
+    },
+    {
+      question: "Est-ce que c'est remboursable ?",
+      answer: "Oui, vous avez une garantie de 14 jours satisfait ou remboursé, sans condition."
     },
     {
       question: "Est-ce que je recevrai une facture pour ma comptabilité ?",

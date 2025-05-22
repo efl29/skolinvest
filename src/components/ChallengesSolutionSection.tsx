@@ -29,7 +29,7 @@ const ChallengesSolutionSection: React.FC = () => {
               </li>
               <li className="flex items-start">
                 <div className="mr-2 mt-1 text-brand-primary">•</div>
-                <p>Et surtout, vous voulez enfin arrêter de tourner en rond et construire quelque chose de solide. De concret. De durable.</p>
+                <p>Vous voulez enfin arrêter de tourner en rond et construire quelque chose de solide. De concret. De durable.</p>
               </li>
             </ul>
           </div>

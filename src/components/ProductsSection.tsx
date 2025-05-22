@@ -123,16 +123,21 @@ const ProductsSection: React.FC = () => {
         </div>
 
         <div className="mt-12 text-center max-w-2xl mx-auto">
-          <div className="bg-brand-light p-6 rounded-xl border border-brand-accent/20">
-            <p className="text-lg">
-              Et si vous hésitez, vous pouvez même demander un extrait de la formation pour vérifier qu'elle est faite pour vous. Remplacer par satisfait ou rembourser 15 jours.
-            </p>
-            <div className="mt-4">
-              <img 
-                src="https://cdn.trustpilot.com/brand-assets/1.1.0/logo-black.svg"
-                alt="Satisfaction garantie"
-                className="h-12 mx-auto"
-              />
+          <div className="bg-gray-50 p-6 rounded-xl border border-gray-200">
+            <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+              <div className="text-left">
+                <h4 className="text-xl font-bold mb-2">Vous ne prenez aucun risque</h4>
+                <p className="text-gray-700">
+                  Testez la méthode Skolinvest pendant 15 jours. Si elle ne vous convient pas, un simple email et nous vous rembourserons intégralement.
+                </p>
+              </div>
+              <div className="shrink-0">
+                <img 
+                  src="https://cdn-icons-png.flaticon.com/512/1478/1478873.png"
+                  alt="Satisfait ou remboursé 100%"
+                  className="h-24 w-auto"
+                />
+              </div>
             </div>
           </div>
         </div>
