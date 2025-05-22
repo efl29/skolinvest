@@ -9,7 +9,7 @@ const ProductsSection: React.FC = () => {
     {
       title: "Parcours Gestion Passive : Débuter en Bourse",
       price: "647€",
-      description: "Avoir l'esprit tranquille avec le minimum d'effort",
+      description: "Investir simplement, efficacement, sans y passer votre vie",
       features: [
         "Identifier les différents acteurs du marchés",
         "Se familiariser avec le vocabulaire des marchés",
@@ -21,7 +21,7 @@ const ProductsSection: React.FC = () => {
       ],
       buttonText: "Je commence maintenant",
       highlighted: false,
-      link: "/contact",
+      link: "/offers#gestion-passive",
     },
     {
       title: "Parcours Expert : Stock Picking",
@@ -36,12 +36,12 @@ const ProductsSection: React.FC = () => {
       ],
       buttonText: "Je deviens expert",
       highlighted: true,
-      link: "/contact",
+      link: "/offers#expert",
     },
     {
       title: "Accompagnement individuel",
       price: "3600€",
-      description: "Formation complète + Coaching personnalisé",
+      description: "Vous voulez être sûr de ne pas vous tromper dans votre sélection ? Avancer plus vite ? Nous vous accompagnons.",
       features: [
         "Tout ce qui est inclus dans Expert",
         "3 sessions de coaching individuel",
@@ -51,7 +51,7 @@ const ProductsSection: React.FC = () => {
       ],
       buttonText: "Je veux être accompagné",
       highlighted: false,
-      link: "/contact",
+      link: "/offers#accompagnement",
     },
   ];
 
@@ -139,7 +139,7 @@ const ProductsSection: React.FC = () => {
               <p>✅ Vous voulez tout mettre en place rapidement, sans vous user mentalement</p>
             </div>
             <Button asChild className="bg-brand-accent text-white hover:bg-brand-accent/90">
-              <Link to="/contact">Réserver un appel</Link>
+              <Link to="/offers">Réserver un appel</Link>
             </Button>
           </div>
           

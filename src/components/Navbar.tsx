@@ -20,7 +20,7 @@ const Navbar: React.FC = () => {
           <a href="/" className="text-gray-800 hover:text-brand-primary font-medium transition-colors">
             Accueil
           </a>
-          <Link to="/contact" className="text-gray-800 hover:text-brand-primary font-medium transition-colors">
+          <Link to="/offers" className="text-gray-800 hover:text-brand-primary font-medium transition-colors">
             Nos offres
           </Link>
           <a href="#about" className="text-gray-800 hover:text-brand-primary font-medium transition-colors">
@@ -54,7 +54,7 @@ const Navbar: React.FC = () => {
             <a href="/" className="block py-2 text-gray-800 font-medium hover:text-brand-primary">
               Accueil
             </a>
-            <Link to="/contact" className="block py-2 text-gray-800 font-medium hover:text-brand-primary">
+            <Link to="/offers" className="block py-2 text-gray-800 font-medium hover:text-brand-primary">
               Nos offres
             </Link>
             <a href="#about" className="block py-2 text-gray-800 font-medium hover:text-brand-primary">
