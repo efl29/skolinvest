@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Link } from 'react-router-dom';
@@ -10,7 +9,7 @@ const Hero: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="space-y-6 max-w-xl">
             <h1 className="font-extrabold text-4xl sm:text-5xl md:text-6xl tracking-tight">
-              Apprenez à investir par vous-même
+              La performance ne s'improvise pas, apprenez à la créer
             </h1>
             <p className="text-lg md:text-xl opacity-90">
               Apprenez à naviguer sur les marchés financiers et à traverser avec sérénité les tempêtes.
