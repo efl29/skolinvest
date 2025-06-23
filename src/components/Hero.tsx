@@ -1,6 +1,6 @@
+
 import React from 'react';
 import { Button } from "@/components/ui/button";
-import { Link } from 'react-router-dom';
 
 const Hero: React.FC = () => {
   return (
@@ -9,17 +9,19 @@ const Hero: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="space-y-6 max-w-xl">
             <h1 className="font-extrabold text-4xl sm:text-5xl md:text-6xl tracking-tight">
-              La performance ne s'improvise pas, apprenez à la créer
+              <div>La performance ne s'improvise pas,</div>
+              <div>apprenez à la créer</div>
             </h1>
             <p className="text-lg md:text-xl opacity-90">
-              Apprenez à naviguer sur les marchés financiers et à traverser avec sérénité les tempêtes.
+              Naviguer sur les marchés financiers en maitrisant les risques. Pas de promesse de gains faciles.
+              <br /><br />
+              Pas de traits sur graphique pour annoncer une croissance ou une décroissance.
+              <br /><br />
+              Juste une méthode structurée, des outils concrets, et un accompagnement de qualité pour aller plus loin.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="text-lg bg-brand-accent hover:bg-brand-accent/90 text-brand-primary">
                 Découvrir nos formations
-              </Button>
-              <Button size="lg" variant="outline" className="text-lg border-white text-brand-primary bg-white hover:bg-white hover:text-blue-500">
-                En savoir plus
               </Button>
             </div>
           </div>
@@ -33,15 +35,6 @@ const Hero: React.FC = () => {
               />
             </div>
           </div>
-        </div>
-        
-        <div className="mt-12 bg-white/10 backdrop-blur-sm p-4 rounded-lg text-center">
-          <p className="text-lg mb-3">Réservez un appel pour savoir quel parcours vous correspond</p>
-          <Link to="/contact">
-            <Button className="bg-brand-accent hover:bg-brand-accent/90 text-white">
-              Réserver un appel
-            </Button>
-          </Link>
         </div>
       </div>
     </section>

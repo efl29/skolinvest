@@ -1,8 +1,6 @@
 
 import React from 'react';
-import { Button } from "@/components/ui/button";
 import { Briefcase, Users, BookOpen, Search } from 'lucide-react';
-import { Link } from 'react-router-dom';
 
 const AboutSection: React.FC = () => {
   const expertise = [
@@ -42,7 +40,7 @@ const AboutSection: React.FC = () => {
             </h2>
             
             <p className="text-lg mb-4">
-              Je suis une ancienne assistante trader.
+              J'ai plus de 10 ans d'expérience dans l'investissement.
             </p>
             
             <p className="text-lg mb-4">
@@ -63,12 +61,6 @@ const AboutSection: React.FC = () => {
                 </div>
               ))}
             </div>
-            
-            <Link to="/contact">
-              <Button className="bg-brand-accent hover:bg-brand-accent/90 text-white">
-                Réserver un appel
-              </Button>
-            </Link>
           </div>
         </div>
       </div>

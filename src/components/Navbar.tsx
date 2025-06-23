@@ -1,6 +1,5 @@
 
 import React, { useState } from 'react';
-import { Button } from "@/components/ui/button";
 import { Menu, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
@@ -32,8 +31,6 @@ const Navbar: React.FC = () => {
           <Link to="/contact" className="text-gray-800 hover:text-brand-primary font-medium transition-colors">
             Contact
           </Link>
-          <Button variant="outline" className="ml-2 border-brand-primary text-brand-primary hover:bg-brand-primary hover:text-white">Se connecter</Button>
-          <Button className="bg-brand-primary hover:bg-brand-primary/90">S'inscrire</Button>
         </div>
 
         {/* Mobile menu button */}
@@ -66,8 +63,6 @@ const Navbar: React.FC = () => {
             <Link to="/contact" className="block py-2 text-gray-800 font-medium hover:text-brand-primary">
               Contact
             </Link>
-            <Button variant="outline" className="w-full mt-3 border-brand-primary text-brand-primary hover:bg-brand-primary hover:text-white">Se connecter</Button>
-            <Button className="w-full mt-2 bg-brand-primary hover:bg-brand-primary/90">S'inscrire</Button>
           </div>
         </div>
       )}

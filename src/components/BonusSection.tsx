@@ -6,7 +6,8 @@ const BonusSection: React.FC = () => {
   const bonuses = [
     "Une séance d'accompagnement offerte par une experte certifiée par l'AMF",
     "Checklist d'analyse d'entreprise",
-    "Modèle Excel de suivi de portefeuille"
+    "Modèle Excel de suivi de portefeuille",
+    "Accès à une communauté engagée"
   ];
 
   return (
