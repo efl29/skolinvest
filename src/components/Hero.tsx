@@ -6,24 +6,15 @@ const Hero: React.FC = () => {
   return (
     <section className="pt-24 pb-16 md:pt-28 md:pb-20 bg-gradient-to-br from-brand-primary to-brand-secondary text-white">
       <div className="container-custom">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mb-12">
           <div className="space-y-6 max-w-xl">
-            <h1 className="font-extrabold text-4xl sm:text-5xl md:text-6xl tracking-tight">
+            <h1 className="font-extrabold text-3xl sm:text-4xl md:text-5xl tracking-tight">
               <div>La performance ne s'improvise pas,</div>
               <div>apprenez à la créer</div>
             </h1>
             <p className="text-lg md:text-xl opacity-90">
-              Naviguer sur les marchés financiers en maitrisant les risques. Pas de promesse de gains faciles.
-              <br /><br />
-              Pas de traits sur graphique pour annoncer une croissance ou une décroissance.
-              <br /><br />
-              Juste une méthode structurée, des outils concrets, et un accompagnement de qualité pour aller plus loin.
+              Naviguer sur les marchés financiers en maitrisant les risques.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="text-lg bg-brand-accent hover:bg-brand-accent/90 text-brand-primary">
-                Découvrir nos formations
-              </Button>
-            </div>
           </div>
           <div className="relative hidden md:block">
             <div className="rounded-xl overflow-hidden shadow-xl">
@@ -35,6 +26,19 @@ const Hero: React.FC = () => {
               />
             </div>
           </div>
+        </div>
+        
+        <div className="text-center space-y-6">
+          <p className="text-lg md:text-xl opacity-90 max-w-4xl mx-auto">
+            Pas de promesse de gains faciles.
+            <br /><br />
+            Pas de traits sur graphique pour annoncer une croissance ou une décroissance.
+            <br /><br />
+            Juste une méthode structurée, des outils concrets, et un accompagnement de qualité pour aller plus loin.
+          </p>
+          <Button size="lg" className="text-lg bg-brand-accent hover:bg-brand-accent/90 text-brand-primary">
+            Découvrir nos formations
+          </Button>
         </div>
       </div>
     </section>
