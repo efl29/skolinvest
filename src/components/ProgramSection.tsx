@@ -6,8 +6,7 @@ import {
   Hammer, 
   ShieldCheck, 
   TrendingUp, 
-  Lightbulb, 
-  Users 
+  Lightbulb
 } from 'lucide-react';
 
 const ProgramSection: React.FC = () => {
@@ -35,10 +34,6 @@ const ProgramSection: React.FC = () => {
     {
       icon: <Lightbulb className="h-10 w-10" />,
       text: "Études de cas, analyses réelles, exercices guidés"
-    },
-    {
-      icon: <Users className="h-10 w-10" />,
-      text: "Visios & coaching pour passer à l'action + Accès à une communauté engagée"
     }
   ];
 

@@ -135,7 +135,7 @@ const ProductsSection: React.FC = () => {
           <div className="bg-gray-50 p-6 rounded-xl border border-gray-200">
             <div className="flex flex-col md:flex-row items-center justify-between gap-4">
               <div className="text-left">
-                <h4 className="text-xl font-bold mb-2">Vous ne prenez aucun risque</h4>
+                <h4 className="text-xl font-bold mb-2">Satisfait ou remboursé</h4>
                 <p className="text-gray-700">
                   Testez la méthode Skolinvest pendant 15 jours. Si elle ne vous convient pas, un simple email et nous vous rembourserons intégralement.
                 </p>

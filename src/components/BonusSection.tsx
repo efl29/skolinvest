@@ -4,10 +4,22 @@ import { Gift } from 'lucide-react';
 
 const BonusSection: React.FC = () => {
   const bonuses = [
-    "Une séance d'accompagnement offerte par une experte certifiée par l'AMF",
-    "Checklist d'analyse d'entreprise",
-    "Modèle Excel de suivi de portefeuille",
-    "Accès à une communauté engagée"
+    {
+      text: "Une séance d'accompagnement offerte par une experte certifiée par l'AMF",
+      italic: "valeur estimée 1200€"
+    },
+    {
+      text: "Checklist d'analyse d'entreprise",
+      italic: "d'après 100 années d'études financières"
+    },
+    {
+      text: "Modèle Excel de suivi de portefeuille",
+      italic: "outil revu et optimisé pour appliquer la stratégie SkolInvest"
+    },
+    {
+      text: "Accès à une communauté engagée",
+      italic: "favoriser la proactivité et l'apprentissage entre paires"
+    }
   ];
 
   return (
@@ -30,11 +42,16 @@ const BonusSection: React.FC = () => {
             
             <ul className="space-y-4 text-left">
               {bonuses.map((bonus, index) => (
-                <li key={index} className="flex items-center gap-3">
-                  <div className="h-6 w-6 rounded-full bg-brand-accent/20 text-brand-primary flex items-center justify-center font-bold text-sm">
+                <li key={index} className="flex items-start gap-3">
+                  <div className="h-6 w-6 rounded-full bg-brand-accent/20 text-brand-primary flex items-center justify-center font-bold text-sm mt-1">
                     {index + 1}
                   </div>
-                  <span>{bonus}</span>
+                  <div>
+                    <span>{bonus.text}</span>
+                    {bonus.italic && (
+                      <span className="italic text-gray-600"> {bonus.italic}</span>
+                    )}
+                  </div>
                 </li>
               ))}
             </ul>
