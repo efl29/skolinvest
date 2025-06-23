@@ -1,5 +1,6 @@
-
 import React from 'react';
+import { Button } from "@/components/ui/button";
+import { Link } from 'react-router-dom';
 import ExpandableProductCard from './ExpandableProductCard';
 
 const ProductsSection: React.FC = () => {
@@ -19,7 +20,7 @@ const ProductsSection: React.FC = () => {
       ],
       buttonText: "Je commence la gestion passive",
       highlighted: false,
-      link: "/offers#gestion-passive",
+      link: "/contact",
       whyExists: "Vous voulez investir en bourse pour sécuriser votre avenir, préparer votre retraite, ou juste avoir un plan B si un jour vous souhaitez changer de vie.\nMais vous ne voulez pas y passer des heures. Vous voulez comprendre, mais sans vous noyer dans le jargon financier.\nCette formation a été pensée pour les gens comme vous : curieux, débordés, qui veulent des résultats sans sacrifier leur énergie mentale.",
       howItWorks: [
         "Accès immédiat à une plateforme claire, divisée en modules courts",
@@ -53,7 +54,7 @@ const ProductsSection: React.FC = () => {
       ],
       buttonText: "Je deviens expert du Stock Picking",
       highlighted: true,
-      link: "/offers#expert",
+      link: "/contact",
       whyExists: "Vous souhaitez choisir vous-mêmes les meilleures entreprises ?\nNe pas suivre un portefeuille tout fait, mais comprendre exactement ce que vous achetez ?\nCette formation est faite pour vous si vous voulez :\n• Devenir autonome dans l'analyse d'entreprise\n• Savoir quand acheter, quand vendre, et pourquoi\n• Créer votre propre portefeuille \"conviction\"\n• Ne plus dépendre d'un influenceur ou d'un gourou boursier\nVous allez apprendre à :\n• Lire un bilan, un compte de résultat, sans jargon inutile\n• Identifier les entreprises sous-cotées de qualité\n• Appliquer les meilleures méthodes de sélection (value, GARP, growth…)\n• Vous protéger des biais émotionnels qui vous font perdre de l'argent",
       howItWorks: [
         "6 modules progressifs : fondamentaux, lecture comptable, ratios clés, analyse avancée, valorisation, gestion long-terme",
@@ -87,7 +88,7 @@ const ProductsSection: React.FC = () => {
       ],
       buttonText: "Je réserve mon appel gratuit",
       highlighted: false,
-      link: "/offers#accompagnement",
+      link: "/contact",
       whyExists: "Vous souhaitez passer à l'action, mais vous voulez être guidé à chaque étape ?\nVous avez compris les bases, ou vous êtes en train de les apprendre, mais vous ne voulez pas rester bloqué.\nVous voulez pouvoir valider vos idées avec un expert, vous sentir accompagné, cadré, et surtout : mettre en place votre plan maintenant, sans vous disperser\nVous voulez être sûr de ne pas vous planter ? Avancer plus vite ? On le fait ensemble.\n\nL'accompagnement individuel est fait pour vous si vous souhaitez :\n• Valider votre stratégie avec un expert\n• Être accompagné dans la mise en place concrète de votre portefeuille\n• Bénéficier d'un retour personnalisé sur vos choix\n• Vous sentir soutenu, encadré et motivé pour ne pas procrastiner",
       howItWorks: [
         "Audit complet de votre situation (temps, fiscalité, capital, objectifs)",
@@ -139,7 +140,7 @@ const ProductsSection: React.FC = () => {
               <p>✅ Vous voulez tout mettre en place rapidement, sans vous user mentalement</p>
             </div>
             <Button asChild className="bg-brand-accent text-white hover:bg-brand-accent/90">
-              <Link to="/offers">Réserver un appel</Link>
+              <Link to="/contact">Réserver un appel</Link>
             </Button>
           </div>
           
