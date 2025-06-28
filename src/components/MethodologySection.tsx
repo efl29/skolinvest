@@ -6,9 +6,6 @@ const MethodologySection: React.FC = () => {
     <section className="py-16 bg-white">
       <div className="container-custom">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-brand-primary">
-            Des parcours de formation pour ceux qui veulent comprendre, décider en toute confiance et prendre le contrôle de leur épargne.
-          </h2>
           <div className="space-y-4 text-lg">
             <p>Pas de promesse de gains faciles.</p>
             <p>Pas de traits sur graphique pour annoncer une croissance ou une décroissance.</p>

@@ -2,42 +2,27 @@
 import React from 'react';
 
 const WhySkolinvestSection: React.FC = () => {
+  const reasons = [
+    "Vous en avez marre de subir les décisions de votre banquier ?",
+    "Vous voulez prendre le contrôle de votre épargne, mais vous ne savez pas par où commencer ?",
+    "Vous avez peur de faire n'importe quoi et de perdre votre argent ?",
+    "Vous voulez investir, mais vous vous sentez perdu dans le jargon financier ?"
+  ];
+
   return (
-    <section className="py-16 bg-gradient-to-br from-brand-primary to-brand-secondary text-white">
+    <section className="py-16 bg-gray-50">
       <div className="container-custom">
-        <div className="max-w-3xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-brand-primary">
             Les parcours de formation Skolinvest, c'est fait pour qui ?
           </h2>
-          <p className="text-xl mb-8 text-center">
-            Une formation pas-à-pas, pensée pour :
-          </p>
-          <ul className="space-y-6 bg-white/10 backdrop-blur-sm p-6 rounded-xl">
-            <li className="flex items-start gap-3">
-              <div className="bg-white/20 rounded-full p-1 flex items-center justify-center">
-                <div className="text-brand-accent text-xl">•</div>
-              </div>
-              <p className="text-lg">Les curieux sérieux, qui veulent comprendre avant d'agir</p>
-            </li>
-            <li className="flex items-start gap-3">
-              <div className="bg-white/20 rounded-full p-1 flex items-center justify-center">
-                <div className="text-brand-accent text-xl">•</div>
-              </div>
-              <p className="text-lg">Ceux qui veulent gagner du temps, éviter les erreurs de débutant et progresser avec méthode</p>
-            </li>
-            <li className="flex items-start gap-3">
-              <div className="bg-white/20 rounded-full p-1 flex items-center justify-center">
-                <div className="text-brand-accent text-xl">•</div>
-              </div>
-              <p className="text-lg">Ceux qui veulent se bâtir une vraie stratégie d'investissement à long terme, et pas juste "tenter leur chance" sur une appli flashy</p>
-            </li>
-            <li className="flex items-start gap-3">
-              <div className="bg-white/20 rounded-full p-1 flex items-center justify-center">
-                <div className="text-brand-accent text-xl">•</div>
-              </div>
-              <p className="text-lg">Ceux qui veulent se sentir accompagner, cadrer, et surtout : mettre en place leur plan maintenant, sans se disperser</p>
-            </li>
-          </ul>
+          <div className="space-y-4">
+            {reasons.map((reason, index) => (
+              <p key={index} className="text-lg text-gray-700">
+                {reason}
+              </p>
+            ))}
+          </div>
         </div>
       </div>
     </section>
