@@ -1,7 +1,6 @@
 
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
-import { Link } from 'react-router-dom';
 
 const Navbar: React.FC = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -25,9 +24,9 @@ const Navbar: React.FC = () => {
           <a href="#faq" className="text-gray-800 hover:text-brand-primary font-medium transition-colors">
             FAQ
           </a>
-          <Link to="/contact" className="text-gray-800 hover:text-brand-primary font-medium transition-colors">
+          <a href="https://calendly.com/skolinvest-formation/prise-de-rendez-vous-clone?month=2025-06" target="_blank" rel="noopener noreferrer" className="text-gray-800 hover:text-brand-primary font-medium transition-colors">
             Contact
-          </Link>
+          </a>
         </div>
 
         {/* Mobile menu button */}
@@ -54,9 +53,9 @@ const Navbar: React.FC = () => {
             <a href="#faq" className="block py-2 text-gray-800 font-medium hover:text-brand-primary">
               FAQ
             </a>
-            <Link to="/contact" className="block py-2 text-gray-800 font-medium hover:text-brand-primary">
+            <a href="https://calendly.com/skolinvest-formation/prise-de-rendez-vous-clone?month=2025-06" target="_blank" rel="noopener noreferrer" className="block py-2 text-gray-800 font-medium hover:text-brand-primary">
               Contact
-            </Link>
+            </a>
           </div>
         </div>
       )}
