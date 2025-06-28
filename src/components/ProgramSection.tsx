@@ -38,7 +38,7 @@ const ProgramSection: React.FC = () => {
   ];
 
   return (
-    <section className="py-16 bg-gray-50">
+    <section className="py-16 bg-white">
       <div className="container-custom">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-10 text-center text-brand-primary">
@@ -49,7 +49,7 @@ const ProgramSection: React.FC = () => {
             {programItems.map((item, index) => (
               <div 
                 key={index} 
-                className="flex items-start gap-4 bg-white p-6 rounded-xl shadow-sm border border-gray-100"
+                className="flex items-start gap-4 bg-gray-50 p-6 rounded-xl shadow-sm border border-gray-100"
               >
                 <div className="text-brand-accent">
                   {item.icon}
