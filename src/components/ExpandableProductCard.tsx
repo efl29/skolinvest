@@ -2,7 +2,6 @@
 import React, { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Check, ChevronDown, ChevronUp } from 'lucide-react';
-import { Link } from 'react-router-dom';
 
 interface Product {
   title: string;
@@ -25,6 +24,13 @@ interface ExpandableProductCardProps {
 const ExpandableProductCard: React.FC<ExpandableProductCardProps> = ({ product }) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
+  const getButtonLink = () => {
+    if (product.title.includes("Gestion Passive") || product.title.includes("Gestion active")) {
+      return "https://www.skolinvest.com/nos-offres";
+    }
+    return "https://calendly.com/skolinvest-formation/prise-de-rendez-vous-clone?month=2025-06";
+  };
+
   return (
     <div className={`rounded-xl shadow-lg overflow-hidden border ${
       product.highlighted 
@@ -38,8 +44,8 @@ const ExpandableProductCard: React.FC<ExpandableProductCardProps> = ({ product }
       )}
       
       <div className={`p-6 ${product.highlighted ? 'bg-brand-light' : 'bg-gray-50'}`}>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-          <div>
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+          <div className="lg:col-span-2">
             <h3 className="text-xl font-bold mb-2">{product.title}</h3>
             <p className="text-gray-600 mb-4">{product.description}</p>
             
@@ -57,6 +63,11 @@ const ExpandableProductCard: React.FC<ExpandableProductCardProps> = ({ product }
           </div>
           
           <div className="flex flex-col justify-center">
+            <div className="flex items-end gap-1 mb-4">
+              <span className="text-3xl font-bold">{product.price}</span>
+            </div>
+            <p className="text-sm text-gray-600 mb-4">Paiement en plusieurs fois possible</p>
+            
             <Button
               variant="outline"
               onClick={() => setIsExpanded(!isExpanded)}
@@ -65,6 +76,19 @@ const ExpandableProductCard: React.FC<ExpandableProductCardProps> = ({ product }
               En savoir plus
               {isExpanded ? <ChevronUp className="h-4 w-4" /> : <ChevronDown className="h-4 w-4" />}
             </Button>
+            
+            <Button 
+              className={`w-full ${
+                product.highlighted 
+                  ? 'bg-brand-accent hover:bg-brand-accent/90 text-white' 
+                  : 'bg-brand-primary hover:bg-brand-primary/90'
+              }`}
+              asChild
+            >
+              <a href={getButtonLink()} target="_blank" rel="noopener noreferrer">
+                {product.buttonText}
+              </a>
+            </Button>
           </div>
         </div>
         
@@ -72,11 +96,6 @@ const ExpandableProductCard: React.FC<ExpandableProductCardProps> = ({ product }
           <div className="space-y-6 border-t pt-6 mt-6">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
               <div className="space-y-4">
-                <div className="flex items-end gap-1 mb-2">
-                  <span className="text-3xl font-bold">{product.price}</span>
-                </div>
-                <p className="text-sm text-gray-600 mb-4">Paiement en plusieurs fois possible</p>
-                
                 <div>
                   <h4 className="font-semibold mb-2">🟡 Pourquoi choisir ce parcours-là ?</h4>
                   <p className="text-sm text-gray-700">{product.whyExists}</p>
@@ -119,19 +138,6 @@ const ExpandableProductCard: React.FC<ExpandableProductCardProps> = ({ product }
                     ))}
                   </ul>
                 </div>
-                
-                <Button 
-                  className={`w-full ${
-                    product.highlighted 
-                      ? 'bg-brand-accent hover:bg-brand-accent/90 text-white' 
-                      : 'bg-brand-primary hover:bg-brand-primary/90'
-                  }`}
-                  asChild
-                >
-                  <Link to={product.link}>
-                    {product.buttonText}
-                  </Link>
-                </Button>
               </div>
             </div>
           </div>

@@ -8,15 +8,17 @@ const Hero: React.FC = () => {
       <div className="container-custom">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="space-y-6 max-w-xl">
-            <h1 className="font-extrabold text-2xl sm:text-3xl md:text-4xl tracking-tight leading-tight">
+            <h1 className="font-bold text-xl sm:text-2xl md:text-3xl tracking-tight leading-relaxed">
               La performance ne s'improvise pas,<br />apprenez à la créer
             </h1>
             <p className="text-lg md:text-xl opacity-90">
               Naviguer sur les marchés financiers en maitrisant les risques.
             </p>
-            <Button size="lg" className="text-lg bg-brand-accent hover:bg-brand-accent/90 text-brand-primary">
-              Découvrir nos formations
-            </Button>
+            <a href="#formations">
+              <Button size="lg" className="text-lg bg-brand-accent hover:bg-brand-accent/90 text-brand-primary">
+                Découvrir nos formations
+              </Button>
+            </a>
           </div>
           <div className="relative hidden md:block">
             <div className="rounded-xl overflow-hidden shadow-xl">

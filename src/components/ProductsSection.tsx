@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Link } from 'react-router-dom';
@@ -159,7 +158,9 @@ const ProductsSection: React.FC = () => {
               <p>✅ Vous voulez tout mettre en place rapidement, sans vous user mentalement</p>
             </div>
             <Button asChild className="bg-brand-accent text-white hover:bg-brand-accent/90">
-              <Link to="/contact">Réserver un appel</Link>
+              <a href="https://calendly.com/skolinvest-formation/prise-de-rendez-vous-clone?month=2025-06" target="_blank" rel="noopener noreferrer">
+                Réserver un appel
+              </a>
             </Button>
           </div>
         </div>

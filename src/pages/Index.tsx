@@ -5,7 +5,6 @@ import Hero from '@/components/Hero';
 import TrustpilotNote from '@/components/TrustpilotNote';
 import ChallengesSolutionSection from '@/components/ChallengesSolutionSection';
 import WhySkolinvestSection from '@/components/WhySkolinvestSection';
-import IntroSection from '@/components/IntroSection';
 import ProgramSection from '@/components/ProgramSection';
 import MethodologySection from '@/components/MethodologySection';
 import BenefitsSection from '@/components/BenefitsSection';
@@ -27,7 +26,6 @@ const Index = () => {
         <TrustpilotNote />
         <ChallengesSolutionSection />
         <WhySkolinvestSection />
-        <IntroSection />
         <ProgramSection />
         <MethodologySection />
         <BenefitsSection />

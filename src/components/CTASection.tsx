@@ -1,7 +1,6 @@
 
 import React from 'react';
 import { Button } from "@/components/ui/button";
-import { Link } from 'react-router-dom';
 
 const CTASection: React.FC = () => {
   return (
@@ -18,9 +17,9 @@ const CTASection: React.FC = () => {
             🎓 Rejoignez un des parcours de formation Bourse de Skolinvest et reprenez le contrôle sur vos finances.
           </p>
           <Button size="lg" className="bg-brand-accent text-brand-primary hover:bg-brand-accent/90" asChild>
-            <Link to="/contact">
+            <a href="https://calendly.com/skolinvest-formation/prise-de-rendez-vous-clone?month=2025-06" target="_blank" rel="noopener noreferrer">
               Réserver un appel
-            </Link>
+            </a>
           </Button>
         </div>
       </div>
