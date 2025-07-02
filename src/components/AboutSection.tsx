@@ -40,7 +40,7 @@ const AboutSection: React.FC = () => {
             </h2>
             
             <p className="text-lg mb-4">
-              « J'ai plus de 10 ans d'expérience en investissement que ce soit dans la gestion de mon portefeuille personnel ou dans l'exercice de mes missions en banque d'investissement. »
+              J'ai plus de 10 ans d'expérience en investissement que ce soit dans la gestion de mon portefeuille personnel ou dans l'exercice de mes missions en banque d'investissement.
             </p>
             
             <p className="text-lg mb-4">
