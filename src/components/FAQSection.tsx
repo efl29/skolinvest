@@ -15,7 +15,7 @@ const FAQSection: React.FC = () => {
     },
     {
       question: "Combien de temps faut-il pour compléter la formation ?",
-      answer: "La formation Gestion Passive représente 3 heures de contenu et la formation Stock Picking environ 6 heures. Vous pouvez la suivre à votre rythme, et vous aurez un accès à vie à tous les contenus et leurs mises à jour."
+      answer: "La formation Gestion Passive représente 3 heures de contenu et la formation Gestion Active environ 6 heures. Vous pouvez la suivre à votre rythme, et vous aurez un accès à vie à tous les contenus et leurs mises à jour."
     },
     {
       question: "Combien de temps dois-je prévoir par semaine ?",
@@ -27,7 +27,7 @@ const FAQSection: React.FC = () => {
     },
     {
       question: "Est-ce que c'est remboursable ?",
-      answer: "Oui, vous avez une garantie de 14 jours satisfait ou remboursé, sans condition."
+      answer: "Oui, vous avez une garantie de 15 jours satisfait ou remboursé, sans condition."
     },
     {
       question: "Est-ce que je peux payer en plusieurs fois ?",
@@ -43,7 +43,7 @@ const FAQSection: React.FC = () => {
     },
     {
       question: "Y a-t-il une garantie de remboursement ?",
-      answer: "Oui, nous offrons une garantie satisfait ou remboursé de 30 jours. Si vous n'êtes pas satisfait de la formation, vous pouvez demander un remboursement complet sans justification."
+      answer: "Oui, nous offrons une garantie satisfait ou remboursé de 15 jours. Si vous n'êtes pas satisfait de la formation, vous pouvez demander un remboursement complet sans justification."
     }
   ];
 

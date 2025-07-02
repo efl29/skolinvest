@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Link } from 'react-router-dom';
@@ -18,13 +19,13 @@ const ProductsSection: React.FC = () => {
         "Optimiser votre portefeuille grâce à des notions fiscales",
         "Gérer mensuellement votre portefeuille en mettant en place une routine basée sur des indicateurs",
       ],
-      buttonText: "Je commence la gestion passive",
+      buttonText: "Détails module",
       highlighted: false,
       link: "/contact",
       whyExists: "Vous voulez investir en bourse pour sécuriser votre avenir, préparer votre retraite, ou juste avoir un plan B si un jour vous souhaitez changer de vie.\nMais vous ne voulez pas y passer des heures. Vous voulez comprendre, mais sans vous noyer dans le jargon financier.\nCette formation a été pensée pour les gens comme vous : curieux, débordés, qui veulent des résultats sans sacrifier leur énergie mentale.",
       howItWorks: [
         "Accès immédiat à une plateforme claire, divisée en modules courts",
-        "Vidéos explicatives + PDF synthétiques",
+        "Vidéos explicatives + Quiz + PDF synthétiques",
         "Modèle de portefeuille prêt à l'emploi, basé sur ton profil (prudent/équilibré/dynamique)",
         "Bonus : simulateur d'investissement et routine de suivi simple"
       ],
@@ -52,7 +53,7 @@ const ProductsSection: React.FC = () => {
         "Faire une analyse quantitative",
         "Faire une analyse qualitative",
       ],
-      buttonText: "Je deviens expert du Stock Picking",
+      buttonText: "Détails module",
       highlighted: true,
       link: "/contact",
       whyExists: "Vous souhaitez choisir vous-mêmes les meilleures entreprises ?\nNe pas suivre un portefeuille tout fait, mais comprendre exactement ce que vous achetez ?\nCette formation est faite pour vous si vous voulez :\n• Devenir autonome dans l'analyse d'entreprise\n• Savoir quand acheter, quand vendre, et pourquoi\n• Créer votre propre portefeuille \"conviction\"\n• Ne plus dépendre d'un influenceur ou d'un gourou boursier\nVous allez apprendre à :\n• Lire un bilan, un compte de résultat, sans jargon inutile\n• Identifier les entreprises sous-cotées de qualité\n• Appliquer les meilleures méthodes de sélection (value, GARP, growth…)\n• Vous protéger des biais émotionnels qui vous font perdre de l'argent",
@@ -81,10 +82,10 @@ const ProductsSection: React.FC = () => {
       description: "Ne perdez plus de temps, concevez rapidement votre portefeuille",
       features: [
         "Tout ce qui est inclus dans Expert",
-        "3 sessions de coaching individuel",
+        "4 sessions de coaching individuel",
         "Revue de votre portefeuille actuel",
         "Plan d'investissement sur-mesure",
-        "Support prioritaire pendant 6 mois",
+        "Support prioritaire pendant 1 an",
       ],
       buttonText: "Je réserve mon appel gratuit",
       highlighted: false,
@@ -112,14 +113,16 @@ const ProductsSection: React.FC = () => {
   ];
 
   return (
-    <section className="py-16 bg-gray-50" id="formations">
+    <section className="py-16 bg-brand-primary" id="formations">
       <div className="container-custom">
-        <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center text-brand-primary">
-          Nos Formations
-        </h2>
+        <div className="bg-white rounded-xl p-8 mb-8">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center text-brand-primary">
+            Nos Formations
+          </h2>
+        </div>
         
         <div className="text-center mb-10">
-          <p className="text-xl text-gray-700">
+          <p className="text-xl text-white">
             3 parcours clairs. 3 niveaux d'engagement. 1 seul objectif : vous rendre autonome, serein et libre financièrement.
           </p>
         </div>
@@ -131,7 +134,7 @@ const ProductsSection: React.FC = () => {
         </div>
 
         <div className="mt-12 text-center max-w-3xl mx-auto space-y-8">
-          <div className="bg-gray-50 p-6 rounded-xl border border-gray-200">
+          <div className="bg-white p-6 rounded-xl border border-gray-200">
             <div className="flex flex-col md:flex-row items-center justify-between gap-4">
               <div className="text-left">
                 <h4 className="text-xl font-bold mb-2">Satisfait ou remboursé</h4>
@@ -147,21 +150,6 @@ const ProductsSection: React.FC = () => {
                 />
               </div>
             </div>
-          </div>
-
-          <div className="bg-brand-light p-6 rounded-xl border border-brand-accent/30">
-            <p className="text-xl font-bold mb-4">Est-ce que cela vous correspond ?</p>
-            <div className="text-left mb-6 space-y-2">
-              <p>✅ Vous voulez gagner du temps et éviter les erreurs classiques</p>
-              <p>✅ Vous voulez valider vos choix avec un pro, au lieu de douter</p>
-              <p>✅ Vous êtes motivé, mais vous avez besoin d'un cadre pour ne pas vous éparpiller</p>
-              <p>✅ Vous voulez tout mettre en place rapidement, sans vous user mentalement</p>
-            </div>
-            <Button asChild className="bg-brand-accent text-white hover:bg-brand-accent/90">
-              <a href="https://calendly.com/skolinvest-formation/prise-de-rendez-vous-clone?month=2025-06" target="_blank" rel="noopener noreferrer">
-                Réserver un appel
-              </a>
-            </Button>
           </div>
         </div>
       </div>

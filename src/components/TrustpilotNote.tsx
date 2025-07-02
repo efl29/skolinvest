@@ -14,11 +14,7 @@ const TrustpilotNote: React.FC = () => {
               rel="noopener noreferrer"
               className="flex items-center gap-2"
             >
-              <img 
-                src="https://cdn.trustpilot.com/brand-assets/1.1.0/logo-black.svg"
-                alt="Trustpilot"
-                className="h-8"
-              />
+              <span className="text-xl font-bold text-gray-800">Trustpilot</span>
               <div className="flex">
                 {Array(5).fill(0).map((_, i) => (
                   <Star key={i} className="h-5 w-5 fill-brand-accent text-brand-accent" />

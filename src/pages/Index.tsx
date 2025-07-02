@@ -14,6 +14,7 @@ import AboutSection from '@/components/AboutSection';
 import CTASection from '@/components/CTASection';
 import FAQSection from '@/components/FAQSection';
 import Footer from '@/components/Footer';
+import EbookPopup from '@/components/EbookPopup';
 
 const Index = () => {
   return (
@@ -36,6 +37,7 @@ const Index = () => {
       </main>
       
       <Footer />
+      <EbookPopup />
     </div>
   );
 };

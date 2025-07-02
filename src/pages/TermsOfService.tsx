@@ -1,0 +1,80 @@
+
+import React from 'react';
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
+
+const TermsOfService = () => {
+  return (
+    <div className="min-h-screen flex flex-col">
+      <Navbar />
+      
+      <main className="flex-grow">
+        <section className="py-16 bg-white">
+          <div className="container-custom">
+            <div className="max-w-4xl mx-auto">
+              <h1 className="text-3xl md:text-4xl font-bold mb-10 text-center text-brand-primary">
+                Conditions d'utilisation
+              </h1>
+              
+              <div className="prose prose-lg max-w-none">
+                <h2>1. Termes</h2>
+                <p>
+                  En accédant à cette école, vous acceptez d'être lié par ces conditions d'utilisation, toutes les lois et réglementations applicables, et vous convenez d'être responsable du respect de toutes les lois locales applicables. Si vous n'êtes pas d'accord avec l'une de ces conditions, il vous est interdit d'utiliser ou d'accéder à ce site. Les matériaux contenus dans cette école sont protégés par les lois applicables en matière de droits d'auteur et de marques de commerce.
+                </p>
+
+                <h2>2. Licence d'utilisation</h2>
+                <p>
+                  Une autorisation est accordée pour télécharger temporairement une copie de tout matériel téléchargeable sur le site Web de l'école uniquement pour une visualisation personnelle, non commerciale et transitoire. Il s'agit d'une autorisation, et non d'un transfert de titre, et en vertu de cette licence, vous n'êtes pas autorisé à :
+                </p>
+                <ul>
+                  <li>modifier ou copier les matériaux ;</li>
+                  <li>utiliser les matériaux à des fins commerciales, ou pour toute diffusion publique (commerciale ou non commerciale) ;</li>
+                  <li>tenter de décompiler ou de rétro-ingénierie de tout logiciel contenu sur le site Web de l'école ;</li>
+                  <li>supprimer toute mention de droits d'auteur ou autre mention de propriété des matériaux ; ou</li>
+                  <li>transférer les matériaux à une autre personne ou "copier" les matériaux sur tout autre serveur.</li>
+                </ul>
+                <p>
+                  Cette licence se résilie automatiquement si vous enfreignez l'une de ces restrictions et peut être résiliée par l'entreprise à tout moment. À la résiliation de votre visionnage de ces matériaux ou à la résiliation de cette licence, vous devez détruire tout matériel téléchargé en votre possession, que ce soit sous forme électronique ou imprimée.
+                </p>
+
+                <h2>3. Avertissement</h2>
+                <p>
+                  Les matériaux sur le site Web de l'école sont fournis "tels quels". L'école ne fait aucune garantie, expresse ou implicite, et par la présente, rejette et annule toutes les autres garanties, y compris, sans limitation, les garanties implicites ou les conditions de qualité marchande, d'aptitude à un usage particulier ou de non-violation de droits de propriété intellectuelle ou d'autres violations de droits. De plus, l'école ne garantit pas et ne fait aucune déclaration concernant l'exactitude, les résultats probables ou la fiabilité de l'utilisation des matériaux sur son site Web ou liés à ces matériaux, ou sur tout site lié à ce site.
+                </p>
+
+                <h2>4. Limitations</h2>
+                <p>
+                  En aucun cas, l'école ne sera responsable de tout dommage (y compris, sans limitation, les dommages pour perte de données ou de profit, ou en raison d'une interruption d'activité) résultant de l'utilisation ou de l'incapacité d'utiliser les matériaux sur le site Web de l'école, même si l'école ou un représentant autorisé de l'école a été informé verbalement ou par écrit de la possibilité de tels dommages. Étant donné que certaines juridictions n'autorisent pas de limitations aux garanties implicites, ou de limitations de responsabilité pour des dommages consécutifs ou accessoires, ces limitations peuvent ne pas s'appliquer à vous.
+                </p>
+
+                <h2>5. Révisions et erreurs</h2>
+                <p>
+                  Les matériaux figurant sur le site Web de l'école peuvent contenir des erreurs techniques, typographiques ou photographiques. L'école ne garantit pas que les matériaux sur son site Web sont exacts, complets ou à jour. L'école peut apporter des modifications aux matériaux contenus sur son site Web à tout moment sans préavis. Cependant, l'école ne s'engage pas à mettre à jour les matériaux.
+                </p>
+
+                <h2>6. Liens</h2>
+                <p>
+                  L'école n'a pas examiné tous les sites liés à son site Web et n'est pas responsable du contenu de ces sites liés. L'inclusion de tout lien n'implique pas une approbation de la part de l'école du site. L'utilisation de tout site Web lié se fait aux risques de l'utilisateur.
+                </p>
+
+                <h2>7. Modifications des conditions d'utilisation du site</h2>
+                <p>
+                  L'école peut réviser ces conditions d'utilisation pour son site Web à tout moment sans préavis. En utilisant ce site Web, vous acceptez d'être lié par la version actuelle de ces conditions d'utilisation.
+                </p>
+
+                <h2>8. Loi applicable</h2>
+                <p>
+                  Toute réclamation liée au site Web de l'école sera régie par les lois de la juridiction du propriétaire de l'école, sans égard à ses dispositions en matière de conflit de lois.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      
+      <Footer />
+    </div>
+  );
+};
+
+export default TermsOfService;

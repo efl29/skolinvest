@@ -31,6 +31,13 @@ const ExpandableProductCard: React.FC<ExpandableProductCardProps> = ({ product }
     return "https://calendly.com/skolinvest-formation/prise-de-rendez-vous-clone?month=2025-06";
   };
 
+  const getFeatureTitle = () => {
+    if (product.title.includes("Accompagnement individuel")) {
+      return "Ce que ça inclus :";
+    }
+    return "Ce que vous allez apprendre :";
+  };
+
   return (
     <div className={`rounded-xl shadow-lg overflow-hidden border ${
       product.highlighted 
@@ -50,7 +57,7 @@ const ExpandableProductCard: React.FC<ExpandableProductCardProps> = ({ product }
             <p className="text-gray-600 mb-4">{product.description}</p>
             
             <div className="space-y-2 mb-4">
-              <h4 className="font-semibold">Ce que vous allez apprendre :</h4>
+              <h4 className="font-semibold">{getFeatureTitle()}</h4>
               <ul className="text-sm space-y-1">
                 {product.features.map((feature, i) => (
                   <li key={i} className="flex items-start">
