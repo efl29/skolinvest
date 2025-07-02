@@ -11,14 +11,16 @@ const Hero: React.FC = () => {
             <h1 className="font-bold text-xl sm:text-2xl md:text-3xl tracking-tight leading-relaxed">
               La performance ne s'improvise pas,<br />apprenez à la créer
             </h1>
-            <p className="text-lg md:text-xl opacity-90 mb-6">
+            <p className="text-lg md:text-xl opacity-90">
               Naviguer sur les marchés financiers en maitrisant les risques.
             </p>
-            <a href="#formations">
-              <Button size="lg" className="text-lg bg-brand-accent hover:bg-brand-accent/90 text-brand-primary">
-                Découvrir nos formations
-              </Button>
-            </a>
+            <div className="pt-4">
+              <a href="#formations">
+                <Button size="lg" className="text-lg bg-brand-accent hover:bg-brand-accent/90 text-brand-primary">
+                  Découvrir nos formations
+                </Button>
+              </a>
+            </div>
           </div>
           <div className="relative hidden md:block">
             <div className="rounded-xl overflow-hidden shadow-xl">

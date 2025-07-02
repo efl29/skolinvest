@@ -54,7 +54,7 @@ const ChallengesSolutionSection: React.FC = () => {
               </li>
               <li className="flex items-start">
                 <div className="mr-2 mt-1 text-brand-accent text-xl">✔️</div>
-                <p>Construire une stratégie sur-mesure pour vous et vos projets</p>
+                <p>Construire une stratégie sur mesure pour vous et vos projets</p>
               </li>
               <li className="flex items-start">
                 <div className="mr-2 mt-1 text-brand-accent text-xl">✔️</div>

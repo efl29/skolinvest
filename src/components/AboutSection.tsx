@@ -28,7 +28,7 @@ const AboutSection: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
             <img 
-              src="https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
+              src="https://www.skolinvest.com/content-assets/public/eyJhbGciOiJIUzI1NiJ9.eyJvYmplY3Rfa2V5IjoibG01dmhuMHl0MHl0NTc2N25pcTZuZWozN3NtZSIsImRvbWFpbiI6Ind3dy5za29saW52ZXN0LmNvbSJ9.9_BXp5-tYjzMxlWo_FdVgpi5PvWET_ax2UnhRdqjQWg" 
               alt="Formatrice Skolinvest" 
               className="rounded-xl shadow-lg object-cover h-96 w-full"
             />

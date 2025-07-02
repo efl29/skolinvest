@@ -9,7 +9,12 @@ const Navbar: React.FC = () => {
     <header className="bg-white shadow-sm fixed w-full top-0 left-0 z-50">
       <nav className="container-custom py-4 flex justify-between items-center">
         {/* Logo */}
-        <a href="/" className="flex items-center">
+        <a href="/" className="flex items-center gap-2">
+          <img 
+            src="https://www.skolinvest.com/content-assets/public/eyJhbGciOiJIUzI1NiJ9.eyJvYmplY3Rfa2V5IjoiMmx0ZzFzZXRycDZpZGgydmZlZjM3bGE2NHI3YiIsImRvbWFpbiI6Ind3dy5za29saW52ZXN0LmNvbSJ9.Veo4xwUrWcHAYpMxyKaa_hY-5ef5iujyiI3V1Fmx74s" 
+            alt="Skolinvest Logo" 
+            className="h-8 w-8"
+          />
           <span className="text-xl font-bold text-brand-primary">Skolinvest</span>
         </a>
 
