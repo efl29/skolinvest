@@ -5,7 +5,7 @@ import { Gift } from 'lucide-react';
 const BonusSection: React.FC = () => {
   const bonuses = [
     {
-      text: "Une séance d'accompagnement offerte par une analyste en banque d'investissement",
+      text: "Une séance d'accompagnement offerte avec une analyste en banque d'investissement",
       italic: "valeur estimée 800€"
     },
     {

@@ -4,6 +4,10 @@ import { Button } from "@/components/ui/button";
 import { Link } from 'react-router-dom';
 
 const Footer: React.FC = () => {
+  const handleTermsClick = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <footer className="bg-gray-900 text-gray-300">
       <div className="container-custom py-6">
@@ -17,13 +21,17 @@ const Footer: React.FC = () => {
           </div>
 
           <div className="text-center">
-            <Link to="/conditions-utilisation" className="text-gray-300 hover:text-white underline">
+            <Link 
+              to="/conditions-utilisation" 
+              className="text-gray-300 hover:text-white underline"
+              onClick={handleTermsClick}
+            >
               Conditions d'utilisation
             </Link>
           </div>
 
           <div className="text-center md:text-right">
-            <p>Email: contact@skolinvest.fr</p>
+            <p>Email: alice@skolinvest.com</p>
           </div>
         </div>
       </div>

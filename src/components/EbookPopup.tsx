@@ -18,10 +18,10 @@ const EbookPopup: React.FC = () => {
     const handleScroll = () => {
       if (hasTriggered) return;
       
-      const formationsSection = document.getElementById('formations');
-      if (formationsSection) {
-        const rect = formationsSection.getBoundingClientRect();
-        if (rect.top <= window.innerHeight) {
+      const aboutSection = document.getElementById('about');
+      if (aboutSection) {
+        const rect = aboutSection.getBoundingClientRect();
+        if (rect.bottom <= window.innerHeight) {
           setIsVisible(true);
           hasTriggered = true;
         }
@@ -54,7 +54,7 @@ const EbookPopup: React.FC = () => {
       `Bonjour,\n\nJe souhaite télécharger l'ebook gratuit.\n\nMes informations :\n- Prénom : ${formData.firstName}\n- Nom : ${formData.lastName}\n- Email : ${formData.email}\n\nCordialement`
     );
     
-    window.location.href = `mailto:contact@skolinvest.fr?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:alice@skolinvest.com?subject=${subject}&body=${body}`;
     setIsVisible(false);
   };
 

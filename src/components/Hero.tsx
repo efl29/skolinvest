@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
             <h1 className="font-bold text-xl sm:text-2xl md:text-3xl tracking-tight leading-relaxed">
               La performance ne s'improvise pas,<br />apprenez à la créer
             </h1>
-            <p className="text-lg md:text-xl opacity-90">
+            <p className="text-lg md:text-xl opacity-90 mb-6">
               Naviguer sur les marchés financiers en maitrisant les risques.
             </p>
             <a href="#formations">

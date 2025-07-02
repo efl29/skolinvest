@@ -25,7 +25,10 @@ const ExpandableProductCard: React.FC<ExpandableProductCardProps> = ({ product }
   const [isExpanded, setIsExpanded] = useState(false);
 
   const getButtonLink = () => {
-    if (product.title.includes("Gestion Passive") || product.title.includes("Gestion active")) {
+    if (product.title.includes("Gestion Passive")) {
+      return "https://www.skolinvest.com/skolinvest-gestion-passive";
+    }
+    if (product.title.includes("Gestion active")) {
       return "https://www.skolinvest.com/nos-offres";
     }
     return "https://calendly.com/skolinvest-formation/prise-de-rendez-vous-clone?month=2025-06";
@@ -105,7 +108,7 @@ const ExpandableProductCard: React.FC<ExpandableProductCardProps> = ({ product }
               <div className="space-y-4">
                 <div>
                   <h4 className="font-semibold mb-2">🟡 Pourquoi choisir ce parcours-là ?</h4>
-                  <p className="text-sm text-gray-700">{product.whyExists}</p>
+                  <p className="text-sm text-gray-700 whitespace-pre-line">{product.whyExists}</p>
                 </div>
                 
                 <div>
