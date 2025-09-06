@@ -11,7 +11,7 @@ const Navbar: React.FC = () => {
         {/* Logo */}
         <a href="/" className="flex items-center gap-2">
           <img 
-            src="https://www.skolinvest.com/content-assets/public/eyJhbGciOiJIUzI1NiJ9.eyJvYmplY3Rfa2V5IjoiMmx0ZzFzZXRycDZpZGgydmZlZjM3bGE2NHI3YiIsImRvbWFpbiI6Ind3dy5za29saW52ZXN0LmNvbSJ9.Veo4xwUrWcHAYpMxyKaa_hY-5ef5iujyiI3V1Fmx74s" 
+            src="/lovable-uploads/9dd49d29-b8bb-44ef-b085-ef528efb7cb4.png" 
             alt="Skolinvest Logo" 
             className="h-8 w-8"
           />

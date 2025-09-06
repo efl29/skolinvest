@@ -144,7 +144,7 @@ const ProductsSection: React.FC = () => {
               </div>
               <div className="shrink-0">
                 <img 
-                  src="https://cdn-icons-png.flaticon.com/512/1478/1478873.png"
+                  src="/lovable-uploads/cdc9560c-0dc7-4a90-92a4-491912d28d16.png"
                   alt="Satisfait ou remboursé 100%"
                   className="h-24 w-auto"
                 />
