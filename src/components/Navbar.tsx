@@ -13,7 +13,7 @@ const Navbar: React.FC = () => {
           <img 
             src="/lovable-uploads/9dd49d29-b8bb-44ef-b085-ef528efb7cb4.png" 
             alt="Skolinvest Logo" 
-            className="h-8 w-8"
+            className="h-8 w-auto"
           />
           <span className="text-xl font-bold text-brand-primary">Skolinvest</span>
         </a>
