@@ -21,7 +21,7 @@ const ProductsSection: React.FC = () => {
       ],
       buttonText: "Détails module",
       highlighted: false,
-      link: "/contact",
+      link: "https://skolinvest.podia.com/nos-offres",
       whyExists: "Vous voulez investir en bourse pour sécuriser votre avenir, préparer votre retraite, ou juste avoir un plan B si un jour vous souhaitez changer de vie.\nMais vous ne voulez pas y passer des heures. Vous voulez comprendre, mais sans vous noyer dans le jargon financier.\nCette formation a été pensée pour les gens comme vous : curieux, débordés, qui veulent des résultats sans sacrifier leur énergie mentale.",
       howItWorks: [
         "Accès immédiat à une plateforme claire, divisée en modules courts",
@@ -55,7 +55,7 @@ const ProductsSection: React.FC = () => {
       ],
       buttonText: "Détails module",
       highlighted: true,
-      link: "/contact",
+      link: "https://skolinvest.podia.com/nos-offres",
       whyExists: "Vous souhaitez choisir vous-mêmes les meilleures entreprises ?\nNe pas suivre un portefeuille tout fait, mais comprendre exactement ce que vous achetez ?\n\nCette formation est faite pour vous si vous voulez :\n• Devenir autonome dans l'analyse d'entreprise\n• Savoir quand acheter, quand vendre, et pourquoi\n• Créer votre propre portefeuille \"conviction\"\n• Ne plus dépendre d'un influenceur ou d'un gourou boursier\n\nVous allez apprendre à :\n• Lire un bilan, un compte de résultat, sans jargon inutile\n• Identifier les entreprises sous-cotées de qualité\n• Appliquer les meilleures méthodes de sélection (value, GARP, growth…)\n• Vous protéger des biais émotionnels qui vous font perdre de l'argent",
       howItWorks: [
         "6 modules progressifs : fondamentaux, lecture comptable, ratios clés, analyse avancée, valorisation, gestion long-terme",

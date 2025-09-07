@@ -28,7 +28,7 @@ const AboutSection: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
             <img 
-              src="/lovable-uploads/aa4b7a9b-88f3-46ea-a60e-adaabe5d440f.png" 
+              src="/lovable-uploads/b5c12af0-4afd-43ca-830d-d198524e6223.png" 
               alt="Formatrice Skolinvest" 
               className="rounded-xl shadow-lg object-cover h-96 w-full"
             />

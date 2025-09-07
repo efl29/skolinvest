@@ -6,7 +6,7 @@ const BonusSection: React.FC = () => {
   const bonuses = [
     {
       text: "Une séance d'accompagnement offerte avec une analyste en banque d'investissement",
-      italic: "valeur estimée 800€"
+      italic: "valeur estimée 500€"
     },
     {
       text: "Checklist d'analyse d'entreprise",
