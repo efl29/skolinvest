@@ -63,12 +63,12 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Mise à jour des couleurs pour le thème bleu/jaune
+				// Couleurs inspirées de agstrategiepatrimoine.fr
 				brand: {
-					primary: '#1E40AF', // Bleu foncé
-					secondary: '#3B82F6', // Bleu plus clair
-					accent: '#FBBF24', // Jaune
-					light: '#FEF9C3', // Jaune clair
+					primary: '#1B3D6B', // Bleu marine foncé (comme AG Stratégie)
+					secondary: '#2563EB', // Bleu plus clair pour gradients
+					accent: '#F59E0B', // Jaune doré (comme sur AG Stratégie)
+					light: '#FEF3C7', // Jaune très clair pour backgrounds
 					dark: '#1E293B', // Slate foncé pour les textes
 				},
 				course: {
