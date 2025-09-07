@@ -25,11 +25,8 @@ const ExpandableProductCard: React.FC<ExpandableProductCardProps> = ({ product }
   const [isExpanded, setIsExpanded] = useState(false);
 
   const getButtonLink = () => {
-    if (product.title.includes("Gestion Passive")) {
-      return "https://www.skolinvest.com/skolinvest-gestion-passive";
-    }
-    if (product.title.includes("Gestion active")) {
-      return "https://www.skolinvest.com/nos-offres";
+    if (product.title.includes("Gestion Passive") || product.title.includes("Gestion active")) {
+      return "https://skolinvest.podia.com/nos-offres";
     }
     return "https://calendly.com/skolinvest-formation/prise-de-rendez-vous-clone?month=2025-06";
   };
