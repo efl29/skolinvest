@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 const Hero: React.FC = () => {
   return (
-    <section className="pt-24 pb-16 md:pt-28 md:pb-20 bg-gradient-to-br from-brand-primary to-brand-secondary text-white">
+    <section className="pt-24 pb-16 md:pt-28 md:pb-20 bg-[#1B3D6B] text-white">
       <div className="container-custom">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="space-y-6 max-w-xl">
@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
             </p>
             <div className="pt-4">
               <a href="#formations">
-                <Button size="lg" className="text-lg bg-brand-accent hover:bg-brand-accent/90 text-brand-primary">
+                <Button size="lg" className="text-lg bg-[#F59E0B] hover:bg-[#F59E0B]/90 text-[#1B3D6B]">
                   Découvrir nos formations
                 </Button>
               </a>

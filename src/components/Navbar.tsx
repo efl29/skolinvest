@@ -15,7 +15,9 @@ const Navbar: React.FC = () => {
             alt="Skolinvest Logo" 
             className="h-8 w-auto"
           />
-          <span className="text-xl font-bold text-brand-primary">Skolinvest</span>
+          <span className="text-xl font-bold">
+            <span className="text-[#1B3D6B]">Skol</span><span className="text-[#F59E0B]">invest</span>
+          </span>
         </a>
 
         {/* Desktop Navigation */}
